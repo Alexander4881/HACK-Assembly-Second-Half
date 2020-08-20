@@ -199,149 +199,149 @@ namespace HACK_Assembly_Second_Half
             {
                 // a=0
                 case "0":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "101010";
                     break;
 
                 case "1":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "111111";
                     break;
 
                 case "-1":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "111010";
                     break;
 
                 case "D":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "001100";
                     break;
 
                 case "A":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "110000";
                     break;
 
                 case "!D":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "001101";
                     break;
 
                 case "!A":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "110001";
                     break;
 
                 case "-D":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "001111";
                     break;
 
                 case "-A":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "110011";
                     break;
 
                 case "D+1":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "011111";
                     break;
 
                 case "A+1":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "110111";
                     break;
 
                 case "D-1":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "001110";
                     break;
 
                 case "A-1":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "110010";
                     break;
 
                 case "D+A":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "000010";
                     break;
 
                 case "D-A":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "010011";
                     break;
 
                 case "A-D":
 
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "000111";
                     break;
 
                 case "D&A":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "000000";
                     break;
 
                 case "D|A":
-                    aBits = "1";
+                    aBits = "0";
                     cBits = "010101";
                     break;
 
                     // a=1
                 case "M":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "110000";
                     break;
 
                 case "!M":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "110001";
                     break;
 
                 case "-M":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "110011";
                     break;
 
                 case "M+1":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "110111";
                     break;
 
                 case "M-1":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "110010";
                     break;
 
                 case "D+M":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "000010";
                     break;
 
                 case "D-M":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "010011";
                     break;
 
                 case "M-D":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "000111";
                     break;
 
                 case "D&M":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "000000";
                     break;
 
                 case "D|M":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "010101";
                     break;
 
                 case "":
-                    aBits = "0";
+                    aBits = "1";
                     cBits = "000000";
                     break;
 
